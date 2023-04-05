@@ -7,4 +7,78 @@ body {
     font-size: 17px;
     margin: 0;
     line-height: 1.5;
+    color: #343434;
 }
+
+.page {
+    width: 800px;
+    margin: 20px auto;
+    background-color: darkturquoise;
+}
+
+/*HEADER*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-title {
+
+}
+
+.header-logo {
+    order: 1;
+}
+
+.header-name {
+    order: 2;
+}
+
+.header-email {
+    order: 3;
+}
+
+.header-tel {
+    order: 4
+}
+
+.header-lang {
+    order: 5;
+    flex-basis: 0;
+}
+
+/*CONTENT*/
+.content {
+    display: flex;
+
+    background-color: fuchsia;
+}
+
+.sidebar {
+    width: 10%;
+
+    background-color: deeppink;
+}
+
+.right {
+    text-align: right;
+}
+
+.main {
+    width: 90%;
+    padding: 0 5px;
+}
+
+.footer {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
