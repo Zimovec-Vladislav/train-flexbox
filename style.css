@@ -6,4 +6,80 @@ body {
     margin: 0;
     font-family: sans-serif;
     font-size: 15px;
+    line-height: 1.5;
 }
+
+.page {
+    width: 600px;
+    margin: 20px auto;
+    background-color: blanchedalmond;
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+
+    background-color: beige;
+    padding: 15px;
+}
+
+.header-title {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.header-logo {
+    order: 3;
+}
+
+.header-tel {
+    order: 2;
+}
+
+.header-lang {
+    order: 1;
+}
+
+
+/*CONTENT*/
+.content {
+    display: flex;
+
+
+    background-color: burlywood;
+}
+
+.sidebar {
+    width: 20%;
+
+    background-color: darksalmon;
+}
+
+.main {
+    width: 60%;
+    padding: 20px;
+}
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
